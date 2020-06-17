@@ -38,7 +38,7 @@ func ConectarBD() *mongo.Client {
 
 }
 
-//ChequeoConnection sirve para chequear la conexión a la base de datos
+//ChequeoConecction ...  sirve para chequear la conexión a la base de datos
 func ChequeoConecction() int {
 	err := MongoCN.Ping(context.TODO(), nil)
 
