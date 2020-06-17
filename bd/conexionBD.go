@@ -12,7 +12,7 @@ import (
 var MongoCN = ConectarBD()
 
 //TODO: PONER PASSWORD
-var clientOptions = options.Client().ApplyURI("")
+var clientOptions = options.Client().ApplyURI("mongodb+srv://Ironman:gAarfnVUpJB3ouMA@cluster0-6u08f.mongodb.net/test?retryWrites=true&w=majority")
 
 //-----------------------//
 
