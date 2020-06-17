@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"go.mo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
 //Usuario es el modelo de usuario de la base de MongoDb
