@@ -9,8 +9,10 @@ import (
 	"github.com/geronm12/twittor/models"
 )
 
+//Email es el mail del usuario logead
 var Email string
 
+//IDUsuario id del usuario logeado
 var IDUsuario string
 
 /*ProcesoToken ... proceso token para extraer sus valores*/
